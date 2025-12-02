@@ -46,19 +46,11 @@ safe-sight-web/dist/
 safe-sight-web/build/
 
 # OpenCV
-*.jpg
-*.png
+dataset/**/*.jpg
+dataset/**/*.png
+trainer/**/*.jpg
+trainer/**/*.png
 *.mp4
-dataset/
-trainer/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
 
 # Test files
 test_frame.jpg
-test_camera.py
