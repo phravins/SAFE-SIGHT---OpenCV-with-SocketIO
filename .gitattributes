@@ -1,0 +1,10 @@
+# GitHub Language Statistics Override
+# Mark Python as the primary language
+
+*.py linguist-detectable=true
+*.tsx linguist-detectable=false
+*.ts linguist-detectable=false
+
+# Exclude generated/build files from statistics
+safe-sight-web/dist/* linguist-generated=true
+safe-sight-web/node_modules/* linguist-vendored=true
